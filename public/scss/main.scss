@@ -36,17 +36,28 @@
 //   }
 // }
 
+// .main {
+//   & &-heading {
+//     font-size: 2em;
+//   }
+
+//   & &-paragraph {
+//     font-size: 1.4em;
+//   }
+// }
 .main {
-  & &-heading {
+
+  // interpolasi
+  #{&}-heading {
     font-size: 2em;
   }
 
-  & &-paragraph {
+  #{&}-paragraph {
     font-size: 1.4em;
   }
 }
 
-footer {
+.footer {
   & &-heading {
     font-size: 2em;
   }
