@@ -83,3 +83,195 @@ body {
 p {
   margin: 0 0 1.5625em;
 }
+
+/**
+ * Heading styling for h1 through h6 elements.
+ * Heading class lets you use one heading type for semantics, but style it as another heading type.
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  margin: 0 0 1em;
+  padding: 1em 0 0;
+  word-wrap: break-word;
+}
+
+.fonts-loaded h1,
+.fonts-loaded h2,
+.fonts-loaded h3,
+.fonts-loaded h4,
+.fonts-loaded h5,
+.fonts-loaded h6 {
+  font-family: "PT Serif", serif;
+}
+
+h1,
+.h1 {
+  font-size: 1.5em;
+  padding-top: 0.5em;
+}
+
+@media (min-width: 38em) {
+
+  h1,
+  .h1 {
+    font-size: 1.75em;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 1.3125em;
+}
+
+h3,
+.h3 {
+  font-size: 1.1875em;
+}
+
+h4,
+h5,
+h6,
+.h4,
+.h5,
+.h6 {
+  font-size: 1em;
+}
+
+h4,
+.h4 {
+  font-size: 0.8125em;
+  text-transform: uppercase;
+}
+
+/**
+ * Lines
+ */
+hr {
+  border: 0;
+  border-top: 1px solid #e5e5e5;
+  margin: 2em auto;
+}
+
+/**
+ * Hyperlink styling
+ */
+a {
+  color: #0088cc;
+  text-decoration-skip-ink: auto;
+  word-wrap: break-word;
+}
+
+a:active,
+a:focus,
+a:hover {
+  color: #005580;
+}
+
+a:visited {
+  color: #800080;
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #73cffa;
+  }
+
+  a:active,
+  a:focus,
+  a:hover {
+    color: #29b6f7;
+  }
+
+  a:visited {
+    color: #debfde;
+  }
+}
+
+.link-no-underline,
+.nav-secondary a {
+  text-decoration: none;
+}
+
+.link-no-underline:active,
+.nav-secondary a:active,
+.link-no-underline:focus,
+.nav-secondary a:focus,
+.link-no-underline:hover,
+.nav-secondary a:hover {
+  text-decoration: underline;
+}
+
+/**
+ * The navigation menu
+ */
+.nav {
+  margin-bottom: 0;
+}
+
+.nav a {
+  color: #808080;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .nav a {
+    color: #e5e5e5;
+  }
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a:focus,
+.nav .active a,
+.nav [aria-current=page] {
+  border-bottom: 0.125em solid #fa7176;
+  color: #272727;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .nav a:hover,
+  .nav a:active,
+  .nav a:focus,
+  .nav .active a,
+  .nav [aria-current=page] {
+    color: #ffffff;
+  }
+}
+
+/**
+ * Clear any floats
+ */
+.clearfix:before,
+.container:before,
+.clearfix:after,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.clearfix:after,
+.container:after {
+  clear: both;
+}
+
+/**
+	 * Hide header and footer nav, and email subscribe form
+	 */
+header .nav,
+footer,
+main aside form {
+  display: none;
+}
+
+/**
+      * Remove body border
+      */
+body {
+  border-top: none;
+}
