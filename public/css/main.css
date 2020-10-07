@@ -1,16 +1,17 @@
-.main .main-heading {
-  font-size: 2em;
+body {
+  background: #ffffff;
+  border-top: 0.5em solid #e5e5e5;
+  color: #272727;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 112.5%;
+  line-height: 1.5;
 }
 
-.main .main-paragraph {
-  font-size: 1.4em;
+.fonts-loaded body {
+  font-family: "PT Sans", sans-serif;
 }
 
-.footer .footer-heading {
-  font-size: 2em;
-}
-
-.footer .footer-paragraph {
-  font-size: 1.4em;
+p {
+  margin: 0 0 1.5625em;
 }
 /*# sourceMappingURL=main.css.map */
