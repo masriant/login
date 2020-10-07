@@ -1,0 +1,28 @@
+-------------------- Auto-Git Log --------------------
+		Thu Oct 08 2020 04:57:38 GMT+0700 (Waktu Indochina)
+------------------------------------------------------
+
+Modified files:
+* app/Views/layout/partials/footer.php
+* app/Views/layout/partials/header.php
+
+
+Created files:
+* .autogit/logs/log-8-9-2020-3-57-32.txt
+* public/assets/css/docs.css
+* public/assets/img/brand/bootstrap-social-logo.png
+* public/assets/img/favicons/android-chrome-192x192.png
+* public/assets/img/favicons/android-chrome-512x512.png
+* public/assets/img/favicons/apple-touch-icon.png
+* public/assets/img/favicons/favicon-16x16.png
+* public/assets/img/favicons/favicon-32x32.png
+* public/assets/img/favicons/favicon.ico
+* public/assets/img/favicons/manifest.json
+* public/assets/img/favicons/safari-pinned-tab.svg
+* public/assets/js/docs.min.js
+
+
+Deleted files:
+
+
+Renamed files:

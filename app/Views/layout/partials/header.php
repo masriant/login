@@ -92,7 +92,7 @@
 
         <ul class="navbar-nav flex-row flex-wrap ml-md-auto">
           <li class="nav-item col-6 col-md-auto">
-            <a class="nav-link p-2" href="https://github.com/twbs" target="_blank" rel="noopener">
+            <a class="nav-link p-2" href="https://github.com/masriant/login" target="_blank" rel="noopener">
               <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
                 class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 512 499.36" role="img">
                 <title>GitHub</title>
@@ -102,66 +102,103 @@
               <small class="d-md-none ml-2">GitHub</small>
             </a>
           </li>
-          <li class="nav-item col-6 col-md-auto">
-            <a class="nav-link p-2" href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
-              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
-                class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 512 416.32" role="img">
-                <title>Twitter</title>
-                <path fill="currentColor"
-                  d="M160.83 416.32c193.2 0 298.92-160.22 298.92-298.92 0-4.51 0-9-.2-13.52A214 214 0 0 0 512 49.38a212.93 212.93 0 0 1-60.44 16.6 105.7 105.7 0 0 0 46.3-58.19 209 209 0 0 1-66.79 25.37 105.09 105.09 0 0 0-181.73 71.91 116.12 116.12 0 0 0 2.66 24c-87.28-4.3-164.73-46.3-216.56-109.82A105.48 105.48 0 0 0 68 159.6a106.27 106.27 0 0 1-47.53-13.11v1.43a105.28 105.28 0 0 0 84.21 103.06 105.67 105.67 0 0 1-47.33 1.84 105.06 105.06 0 0 0 98.14 72.94A210.72 210.72 0 0 1 25 370.84a202.17 202.17 0 0 1-25-1.43 298.85 298.85 0 0 0 160.83 46.92" />
-              </svg>
-              <small class="d-md-none ml-2">Twitter</small>
-            </a>
-          </li>
-          <li class="nav-item col-6 col-md-auto">
-            <a class="nav-link p-2" href="https://bootstrap-slack.herokuapp.com/" target="_blank" rel="noopener">
-              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
-                class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 512 512" role="img">
-                <title>Slack</title>
-                <path fill="currentColor" d="M210.787 234.832l68.31-22.883 22.1 65.977-68.309 22.882z" />
-                <path fill="currentColor"
-                  d="M490.54 185.6C437.7 9.59 361.6-31.34 185.6 21.46S-31.3 150.4 21.46 326.4 150.4 543.3 326.4 490.54 543.34 361.6 490.54 185.6zM401.7 299.8l-33.15 11.05 11.46 34.38c4.5 13.92-2.87 29.06-16.78 33.56-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18l-11.46-34.38-68.36 22.92 11.46 34.38c4.5 13.92-2.87 29.06-16.78 33.56-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18l-11.46-34.43-33.15 11.05c-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18c-4.5-13.92 2.87-29.06 16.78-33.56l33.12-11.03-22.1-65.9-33.15 11.05c-2.87.82-6.14 1.64-9 1.23a27.32 27.32 0 0 1-24.56-18c-4.48-13.93 2.89-29.07 16.81-33.58l33.15-11.05-11.46-34.38c-4.5-13.92 2.87-29.06 16.78-33.56s29.06 2.87 33.56 16.78l11.46 34.38 68.36-22.92-11.46-34.38c-4.5-13.92 2.87-29.06 16.78-33.56s29.06 2.87 33.56 16.78l11.47 34.42 33.15-11.05c13.92-4.5 29.06 2.87 33.56 16.78s-2.87 29.06-16.78 33.56L329.7 194.6l22.1 65.9 33.15-11.05c13.92-4.5 29.06 2.87 33.56 16.78s-2.88 29.07-16.81 33.57z" />
-              </svg>
-              <small class="d-md-none ml-2">Slack</small>
-            </a>
-          </li>
-          <li class="nav-item col-6 col-md-auto">
-            <a class="nav-link p-2" href="https://opencollective.com/bootstrap" target="_blank" rel="noopener">
-              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" fill-rule="evenodd"
-                class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 40 41" role="img">
-                <title>Open Collective</title>
-                <path fill-opacity=".4"
-                  d="M32.8 21c0 2.4-.8 4.9-2 6.9l5.1 5.1c2.5-3.4 4.1-7.6 4.1-12 0-4.6-1.6-8.8-4-12.2L30.7 14c1.2 2 2 4.3 2 7z" />
-                <path
-                  d="M20 33.7a12.8 12.8 0 0 1 0-25.6c2.6 0 5 .7 7 2.1L32 5a20 20 0 1 0 .1 31.9l-5-5.2a13 13 0 0 1-7 2z" />
-              </svg>
-              <small class="d-md-none ml-2">Open Collective</small>
-            </a>
-          </li>
+
         </ul>
 
         <a class="btn btn-bd-download d-lg-inline-block my-2 my-md-0 ml-md-3"
-          href="/docs/5.0/getting-started/download/">Download</a>
+          href="https://github.com/masriant/login">Logout</a>
       </div>
     </nav>
   </header>
   <main>
-    <div class="bd-masthead mb-3" id="content">
-      <div class="container px-4 px-md-3">
-        <div class="row align-items-lg-center">
-          <div class="col-8 mx-auto col-md-4 order-md-2 col-lg-5">
-            <h1>Hello, world!</h1>
+    <div class="bd-masthead mb-3">
+      <div class="container">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleDark" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleDark" data-slide-to="1"></li>
+            <li data-target="#carouselExampleDark" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="10000">
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
+                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+                <!-- <title>Placeholder</title> -->
+                <!-- <rect width="100%" height="100%" fill="#777" /> -->
+                <!-- <text x="50%" y="50%" fill="#555" dy=".3em">First
+                  slide</text> -->
+              </svg>
+              <!-- <img src="..." class="d-block w-100" alt="..."> -->
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-interval="2000">
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
+                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#666" /><text x="50%" y="50%" fill="#444" dy=".3em">Second
+                  slide</text>
+              </svg>
 
-
-
-
+              <!-- <img src="..." class="d-block w-100" alt="..."> -->
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
+                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#555" /><text x="50%" y="50%" fill="#333" dy=".3em">Third
+                  slide</text>
+              </svg>
+              <!-- <img src="..." class="d-block w-100" alt="..."> -->
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+            </div>
           </div>
+          <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleDark" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
         </div>
+        <section class="row mb-5 pb-md-4 align-items-center">
+          <div class="col-md-5">
+
+            <h2 class="display-5 font-weight-normal">Installation</h2>
+            <p class="lead font-weight-normal">
+              Install Bootstrap’s source Sass and JavaScript files via npm, Composer, or Meteor.
+            </p>
+            <p>Package managed installs don’t include documentation or our full build scripts. You can also <a
+                href="https://github.com/masriant/login">use our npm template repo</a> to quickly generate a
+              Bootstrap project via npm.</p>
+            <a class="btn btn-lg btn-outline-primary mb-3" href="https://github.com/masriant/login">Read installation
+              docs</a>
+          </div>
+          <div class="col-md-7 pl-md-5">
+            <div class="highlight">
+              <pre class="chroma"><code class="language-sh" data-lang="sh">npm install bootstrap</code></pre>
+            </div>
+            <div class="highlight">
+              <pre
+                class="chroma"><code class="language-sh" data-lang="sh">gem install bootstrap -v 5.0.0.alpha2</code></pre>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
-    <section>
-
-    </section>
   </main>
 
 
