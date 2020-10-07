@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Thu Oct 08 2020 02:57:21 GMT+0700 (Waktu Indochina)
+------------------------------------------------------
+
+Modified files:
+* app/Views/index.html
+* public/css/main.css
+* public/css/main.css.map
+* public/scss/main.scss
+
+
+Created files:
+* .autogit/logs/log-8-9-2020-2-27-16.txt
+* app/Views/header.html
+
+
+Deleted files:
+
+
+Renamed files:
