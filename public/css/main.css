@@ -7,6 +7,29 @@ body {
   line-height: 1.5;
 }
 
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
 .fonts-loaded body {
   font-family: "PT Sans", sans-serif;
 }
@@ -190,16 +213,7 @@ a:visited {
 /**
 	 * Hide header and footer nav, and email subscribe form
 	 */
-header .nav,
-footer,
-main aside form {
-  display: none;
-}
-
 /**
       * Remove body border
       */
-body {
-  border-top: none;
-}
 /*# sourceMappingURL=main.css.map */

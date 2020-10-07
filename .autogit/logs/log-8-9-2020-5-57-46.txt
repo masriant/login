@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Thu Oct 08 2020 05:57:46 GMT+0700 (Waktu Indochina)
+------------------------------------------------------
+
+Modified files:
+* app/Views/layout/partials/header.php
+
+
+Created files:
+* .autogit/logs/log-8-9-2020-4-57-38.txt
+
+
+Deleted files:
+
+
+Renamed files:
