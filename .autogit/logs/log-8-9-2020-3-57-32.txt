@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Thu Oct 08 2020 03:57:32 GMT+0700 (Waktu Indochina)
+------------------------------------------------------
+
+Modified files:
+* .autogit/autogit.json
+* app/Controllers/Home.php
+
+
+Created files:
+* .autogit/logs/log-8-9-2020-3-27-26.txt
+* app/Views/layout/partials/footer.php
+* app/Views/layout/partials/header.php
+
+
+Deleted files:
+
+
+Renamed files:
