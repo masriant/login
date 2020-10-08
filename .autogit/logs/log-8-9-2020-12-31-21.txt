@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Thu Oct 08 2020 12:31:21 GMT+0700 (Waktu Indochina)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-8-9-2020-9-44-35.txt
+
+
+Deleted files:
+
+
+Renamed files:
