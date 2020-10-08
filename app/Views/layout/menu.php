@@ -1,10 +1,10 @@
-<?= $this->extend('layout/partials/header') ?>
+<?= $this->extend('layout/main') ?>
 <?= $this->section('menu') ?>
 <div class="container">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <!-- <nav class="navbar sticky-top navbar-light bg-light"> -->
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Navbar Menu</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -12,13 +12,13 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="<?= site_url('layout') ?>">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="<?= site_url('layout') ?>">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="<?= site_url('layout') ?>">Pricing</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"

@@ -1,5 +1,5 @@
 <?= $this->extend('layout/partials/header') ?>
-<?= $this->extend('layout/partials/menu') ?>
+<?= $this->section('footer') ?>
 <footer>
   <div class="row my-5 pt-5 text-muted text-center text-small">
     <p class="mb-1">&copy; 2017-<?= date('Y'); ?> Masrianto </p>
@@ -31,3 +31,4 @@
 </body>
 
 </html>
+<?= $this->endSection('') ?>
