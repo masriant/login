@@ -37,18 +37,32 @@
 
 
 // SASS Scope Variables
-$secondary-c0lor: #f2cc8f;
-$text-color: #e07a5f;
+// $secondary-c0lor: #f2cc8f;
+// $text-color: #e07a5f;
+// $primary-color: #22eb3d;
 
-body {
-  $primary-color: #f4f1de !global;
-  background-color: $primary-color;
-}
+// body {
+//   $primary-color: #b6b63b;
+//   background-color: $primary-color;
+// }
+
+// h1 {
+//   color: $text-color;
+// }
+
+// p {
+//   color: $primary-color;
+// }
+
+// Map
+// $alert-danger: red;
+// $alert-success: green;
+// $alert-warning: orange;
+$alert: ('danger': red,
+  'success': green,
+  'warning': orange,
+);
 
 h1 {
-  color: $text-color;
-}
-
-p {
-  color: $primary-color;
+  color: map-get($alert, 'danger');
 }
