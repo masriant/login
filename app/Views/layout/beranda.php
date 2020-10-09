@@ -13,7 +13,7 @@
     <div class="card-body">
       <p class="card-text">
       <div class="alert alert-info">
-        Ini latihan saya membuat CRUD di CI 4 Full Ajax Jquery
+        <p>Ini latihan saya membuat CRUD di CI 4 Full Ajax Jquery</p>
       </div>
       </p>
     </div>

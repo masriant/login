@@ -47,6 +47,9 @@
         <!-- Page-Title -->
         <div class="row">
           <?= $this->renderSection('content') ?>
+          <li>
+            <a class="nav-link" href="<?= site_url('layout') ?>">Layout</a>
+          </li>
         </div>
         <!-- end page title end breadcrumb -->
 

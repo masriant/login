@@ -41,6 +41,7 @@
     <!-- end Menu -->
   </header>
   <main class="container">
+
     <div class="wrapper">
       <div class="container-fluid">
 
@@ -55,7 +56,6 @@
     <!-- end wrapper -->
 
   </main>
-
 
   <!-- Footer -->
   <footer>

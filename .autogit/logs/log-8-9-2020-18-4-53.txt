@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Thu Oct 08 2020 18:04:53 GMT+0700 (Waktu Indochina)
+------------------------------------------------------
+
+Modified files:
+* app/Views/layout/beranda.php
+* app/Views/layout/main.php
+* app/Views/layout/partials/footer.php
+* app/Views/layout/partials/header.php
+
+
+Created files:
+* .autogit/logs/log-8-9-2020-15-18-6.txt
+
+
+Deleted files:
+
+
+Renamed files:
+* [object Object]
