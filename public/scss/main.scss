@@ -38,10 +38,10 @@
 
 // SASS Scope Variables
 $secondary-c0lor: #f2cc8f;
-$primary-color: #f4f1de;
 $text-color: #e07a5f;
 
 body {
+  $primary-color: #f4f1de !global;
   background-color: $primary-color;
 }
 
